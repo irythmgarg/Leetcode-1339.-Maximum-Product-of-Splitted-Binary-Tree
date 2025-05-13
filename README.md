@@ -32,6 +32,7 @@ This way, we find the **optimal split** to maximize the product.
 
 ## 🧪 Example
 
+```cpp
     1
    / \
   2   3
@@ -43,18 +44,22 @@ This way, we find the **optimal split** to maximize the product.
   - [3] and [1,2] → 3×3 = 9 ✅
 
 **Answer: 9**
-
+```
 ---
 
 ## ⏱️ Time Complexity
+-
 
-- **O(N)** – where `N` is the number of nodes in the tree.  
+- **O(N)** – where `N` is the number of nodes in the tree.
+- 
   - One DFS for total sum.
+  - 
   - Another DFS to evaluate each possible split.
 
 ---
 
 ## 📦 Space Complexity
+-
 
 - **O(H)** – where `H` is the height of the tree (due to recursion stack).  
   - Worst case: O(N) for skewed trees.  
@@ -63,6 +68,7 @@ This way, we find the **optimal split** to maximize the product.
 ---
 
 ## ✍️ Author
+-
 
 Made with 💻 by **Ridham Garg**  
 🎓 B.Tech Computer Engineering  
